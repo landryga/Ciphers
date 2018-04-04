@@ -62,13 +62,13 @@ public class Vernam {
 		
 		cryptogram = getCryptogram(cryptogramIndexes);
 		
+		System.out.println("Szyfrogram:");
+		System.out.println(cryptogram);
 		for(int i=0; i < inputLng; i++) {
 			System.out.print(cryptogramIndexes[i]+ " ");
 		}
 		
 		System.out.println("");
-		
-		System.out.println(cryptogram);
 		
 	}
 	
